@@ -1,0 +1,28 @@
+{
+  "name": "@harshil1712/slidev-addon-protected-presenter",
+  "description": "A simple Slidev addon to protect your slides from being advanced by the audience",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "keywords": [
+    "slidev",
+    "slidev-addon",
+    "presenter",
+    "protected"
+  ],
+  "author": "Harshil Agrawal (harshil.dev)",
+  "license": "MIT",
+  "engines": {
+    "slidev": "^51.4.0"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "@slidev/cli": "latest"
+  }
+}
