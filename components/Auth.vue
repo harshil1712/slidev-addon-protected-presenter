@@ -8,7 +8,7 @@ const { isPresenter, router, currentPath, currentSlideNo } = useNav();
 const props = defineProps({
   passwordUrl: {
     type: String,
-    default: "/auth" || configs.auth.passwordUrl,
+    default: configs.auth.passwordUrl || null,
   },
   staticPassword: {
     type: String,

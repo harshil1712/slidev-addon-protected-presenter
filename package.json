@@ -1,7 +1,7 @@
 {
   "name": "@harshil1712/slidev-addon-protected-presenter",
   "description": "A simple Slidev addon to protect your slides from being advanced by the audience",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
