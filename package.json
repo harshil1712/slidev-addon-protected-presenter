@@ -16,7 +16,7 @@
   "author": "Harshil Agrawal (harshil.dev)",
   "license": "MIT",
   "engines": {
-    "slidev": "^51.4.0"
+    "slidev": ">=51.4.0"
   },
   "dependencies": {
     "@slidev/theme-default": "latest",
