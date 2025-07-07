@@ -1,7 +1,7 @@
 {
   "name": "@harshil1712/slidev-addon-protected-presenter",
   "description": "A simple Slidev addon to protect your slides from being advanced by the audience",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
@@ -23,6 +23,25 @@
     "@slidev/theme-seriph": "latest"
   },
   "devDependencies": {
-    "@slidev/cli": "latest"
+    "@semantic-release/git": "^10.0.1",
+    "@slidev/cli": "latest",
+    "semantic-release": "^24.2.6"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "message": "chore(release): ${nextRelease.version} \n\n${nextRelease.notes}"
+        }
+      ],
+      "@semantic-release/github"
+    ]
   }
 }
